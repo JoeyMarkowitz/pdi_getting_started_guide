@@ -30,6 +30,15 @@ centos
   sudo yum install postgresql92 postgresql92-server postgresql92-contrib
   sudo service postgresql-9.2 initdb
 
+  sudo postgres
+  psql
+  CREATE DATABASE pdi_repository;
+  CREATE USER pentaho LOGIN PASSWORD 'pentahopassword';		#defaults with login permission enabled
+  
+  #list databases with \l;
+  #list tables with \dt;
+  #list roles with \du;
+
 ubuntu
   TBD
 
