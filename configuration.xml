@@ -1,0 +1,17 @@
+<slave_config>
+    <max_log_lines>10000</max_log_lines>
+    <max_log_timeout_minutes>1440</max_log_timeout_minutes>
+    <object_timeout_minutes>1440</object_timeout_minutes>
+
+    <slaveserver>
+        <name>Test Slave Server</name>
+        <hostname>localhost</hostname>
+        <port>8081</port>
+    </slaveserver>
+
+    <repository>
+        <name>theNewWorld</name>
+        <username>admin</username>
+        <password>admin</password>
+    </repository>
+</slave_config>
