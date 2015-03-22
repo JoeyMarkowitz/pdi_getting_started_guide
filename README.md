@@ -8,7 +8,11 @@ This guide will get you up and running with a pentaho data integration installat
 
 postgres is natively supported by pentaho (easiest way to get started).  we are going to setup pentaho data integration with a test job that will run every hour and execute a test transformation.  the data integration server (carte) will link to a repository in a postgres db.  
 
-
+Pentaho Software
+  spoon   - desktop app
+  pan     - CLI execute transforms or export repository to xml file (local)
+  kitchen - CLI execute jobs (local)
+  carte   - remote execute jobs & transforms
 
 
 setup new user in linux to run PDI
